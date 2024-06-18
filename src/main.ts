@@ -10,7 +10,7 @@ async function bootstrap() {
     options: {
       package: 'payment',
       protoPath: 'src/payment/payment.proto',
-      url: 'localhost:50053',
+      url: '0.0.0.0:50053',
     },
   };
 
