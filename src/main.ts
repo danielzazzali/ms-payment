@@ -9,7 +9,7 @@ async function bootstrap() {
     transport: Transport.GRPC,
     options: {
       package: 'payment',
-      protoPath: 'src/payment/payment.proto',
+      protoPath: 'src/payment.proto',
       url: 'localhost:5000',
     },
   };
