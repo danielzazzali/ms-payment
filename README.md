@@ -3,7 +3,7 @@
 ```
 
 ```bash
-  sudo docker run -p 5000:5000 ms-payment
+  sudo docker run -p 50003:50003 ms-payment
 ```
 
 ```bash

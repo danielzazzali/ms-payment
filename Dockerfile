@@ -20,8 +20,6 @@ COPY src/payment.proto ./src/
 # Construir el proyecto
 RUN npm run build
 
-COPY --from=build /app/src/payment.proto ./src/
-
 # Exponer el puerto en el que la aplicación está escuchando
 EXPOSE 50053
 
